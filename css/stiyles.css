@@ -1,0 +1,49 @@
+.Padre{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(162, 113, 207, 0.691);
+    padding: 15px;
+    height: 650px;
+
+}
+
+.item{
+    background-color: rgba(122, 230, 194, 0.787);
+    width: 150px;
+    margin: 15px;
+    padding:15px;
+}
+
+img{
+    height: 100px;
+}
+
+.Shrek{
+    order: 5;
+    align-self: center;
+}
+
+.Burro{
+    order: 3;
+    align-self: center;
+}
+
+.Fiona{
+    order: 1;
+    align-self: flex-start;
+    align-self: stretch;
+}
+
+.Gato_con_botas{
+    order: 2;
+    align-self: flex-end;
+}
+
+.Pinocho{
+    order: 4;
+    align-self: flex-start;
+}
+
